@@ -6,6 +6,9 @@ System. The application name for this puporse will be ERS-App
 
 ``` 
 !pip install django
+!pip install djangorestframework.jsonapi
+!pip install python-dotenv
+
 !django-admin startproject {project_name}
 
 %cd {project_name}
