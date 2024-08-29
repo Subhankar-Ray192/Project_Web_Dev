@@ -28,7 +28,7 @@ def index(request):
 ## Django:: Deployment Steps
 
 For our deploement purposes, we are utilizing a free open-source resource called
-ngrok. The documentation link has been provided for ngrok above. We are tuneeling
+ngrok. The documentation link has been provided for ngrok above. We are tunelling
 our website through the free-key that will be generated in ngrok dashboard. For all
 purposes, the port that we will be tunelling is 7000
 
