@@ -1,6 +1,9 @@
 # Django
 ## Django::Configuration Steps
 
+The project name for our purposes has been defined as ERS(Exam-Room-Allocation)
+System. The application name for this puporse will be ERS-App
+
 ``` 
 !pip install django
 !django-admin startproject {project_name}
@@ -23,6 +26,11 @@ def index(request):
 ```
 
 ## Django:: Deployment Steps
+
+For our deploement purposes, we are utilizing a free open-source resource called
+ngrok. The documentation link has been provided for ngrok above. We are tuneeling
+our website through the free-key that will be generated in ngrok dashboard. For all
+purposes, the port that we will be tunelling is 7000
 
 ```
 !pip install pyngrok --quiet
