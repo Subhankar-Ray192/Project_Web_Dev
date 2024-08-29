@@ -1,4 +1,5 @@
-# Django::Configuration Steps
+#Django
+## Django::Configuration Steps
 
 ``` 
 !pip install django
