@@ -1,4 +1,21 @@
 # Django
+
+## Django:: Secure Environment Variable File Configuration
+
+```
+AUTH_KEY={auth_key}
+```
+
+## Django:: Python Code to load Environment Variables
+
+```
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+print(os.getenv('{PATH_VAR}'))
+```
+
 ## Django::Configuration Steps
 
 The project name for our purposes has been defined as ERS(Exam-Room-Allocation)
